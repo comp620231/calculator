@@ -11,7 +11,7 @@ class Example(Frame):
 
 def main():
     root = Tk()
-    root.title("TEST")
+    root.title("")
     root.geometry("300x300")
     app = Example()
     root.mainloop()
