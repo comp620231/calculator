@@ -7,7 +7,6 @@ class Example(Frame):
         self.initUI()
 
     def initUI(self):
-        undo_stack = []
         num = StringVar()
         num.set(0)
         self.label = Entry(text=num, justify=RIGHT)
@@ -29,9 +28,6 @@ class Example(Frame):
         Button(text="+").place(x=230, y=100)
         Button(text="=").place(x=310, y=100)
 
-    def on_button_click(self, value):
-        pass
-
 def main():
     root = Tk()
     root.title("")
@@ -41,3 +37,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+#Поторапливатесь с проектом у нас дедлайн!!!!!!!!!!!
